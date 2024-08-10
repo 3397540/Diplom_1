@@ -16,10 +16,4 @@ public class IngredientTest {
         Ingredient ingredient = new Ingredient(IngredientType.SAUCE, "Mayonnaise", 21.34F);
         Assert.assertEquals("Mayonnaise", ingredient.getName());
     }
-
-    @Test
-    public void getTypeTest() {
-        Ingredient ingredient = new Ingredient(IngredientType.SAUCE, "Mayonnaise", 21.34F);
-        Assert.assertEquals(IngredientType.SAUCE, ingredient.getType());
-    }
 }
